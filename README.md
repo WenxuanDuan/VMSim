@@ -1,6 +1,3 @@
-Name: Wenxuan Duan  
-NUID: 002839590
-
 # Virtual Memory Simulator
 
 ## Introduction
