@@ -1,0 +1,202 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ./vm-sim ../workloads/everything\
+page_size = 2 bytes\
+mem_size = 16 bytes\
+max_jobs = 8 jobs\
+filename = ../workloads/everything\
+\
+Forking new process init.  Assigning pid: 0.\
+\
+Forking new process gcc.  Assigning pid: 1.\
+\
+Forking new process mozilla.  Assigning pid: 2.\
+\
+===================================================\
+Switching to process: init. Corresponding pid: 0.\
+===================================================\
+\
+Virtual Address 00001 (VPN: 00000 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 0. Evicting (PFN 0 VPN 0) as victim.\
+**** using free frame PFN 0\
+Physical Address 00001 (PFN: 00000 OFFSET: 00001)\
+STORED 000 as data in virtual address 00001.\
+Complete\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 1. Evicting (PFN 1 VPN 0) as victim.\
+**** using free frame PFN 1\
+Physical Address 00003 (PFN: 00001 OFFSET: 00001)\
+STORED 001 as data in virtual address 00003.\
+Complete\
+\
+Virtual Address 00004 (VPN: 00002 OFFSET: 00000)\
+****PAGE FAULT has occurred at VPN 2. Evicting (PFN 2 VPN 0) as victim.\
+**** using free frame PFN 2\
+Physical Address 00004 (PFN: 00002 OFFSET: 00000)\
+STORED 002 as data in virtual address 00004.\
+Complete\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+Physical Address 00003 (PFN: 00001 OFFSET: 00001)\
+LOADED 001 as data from virtual address 00003.\
+Complete\
+\
+===================================================\
+Switching to process: gcc. Corresponding pid: 1.\
+===================================================\
+\
+Virtual Address 00002 (VPN: 00001 OFFSET: 00000)\
+****PAGE FAULT has occurred at VPN 1. Evicting (PFN 3 VPN 0) as victim.\
+**** using free frame PFN 3\
+Physical Address 00006 (PFN: 00003 OFFSET: 00000)\
+STORED 000 as data in virtual address 00002.\
+Complete\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+Physical Address 00007 (PFN: 00003 OFFSET: 00001)\
+STORED 042 as data in virtual address 00003.\
+Complete\
+\
+===================================================\
+Switching to process: mozilla. Corresponding pid: 2.\
+===================================================\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 1. Evicting (PFN 4 VPN 0) as victim.\
+**** using free frame PFN 4\
+Physical Address 00009 (PFN: 00004 OFFSET: 00001)\
+STORED 002 as data in virtual address 00003.\
+Complete\
+\
+Virtual Address 00004 (VPN: 00002 OFFSET: 00000)\
+****PAGE FAULT has occurred at VPN 2. Evicting (PFN 5 VPN 0) as victim.\
+**** using free frame PFN 5\
+Physical Address 00010 (PFN: 00005 OFFSET: 00000)\
+STORED 006 as data in virtual address 00004.\
+Complete\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+Physical Address 00009 (PFN: 00004 OFFSET: 00001)\
+LOADED 002 as data from virtual address 00003.\
+Complete\
+\
+===================================================\
+Switching to process: gcc. Corresponding pid: 1.\
+===================================================\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+Physical Address 00007 (PFN: 00003 OFFSET: 00001)\
+LOADED 042 as data from virtual address 00003.\
+Complete\
+\
+Virtual Address 00003 (VPN: 00001 OFFSET: 00001)\
+Physical Address 00007 (PFN: 00003 OFFSET: 00001)\
+STORED 016 as data in virtual address 00003.\
+Complete\
+\
+===================================================\
+Switching to process: init. Corresponding pid: 0.\
+===================================================\
+\
+Virtual Address 00001 (VPN: 00000 OFFSET: 00001)\
+Physical Address 00001 (PFN: 00000 OFFSET: 00001)\
+LOADED 000 as data from virtual address 00001.\
+Complete\
+\
+Virtual Address 00004 (VPN: 00002 OFFSET: 00000)\
+Physical Address 00004 (PFN: 00002 OFFSET: 00000)\
+LOADED 002 as data from virtual address 00004.\
+Complete\
+\
+Virtual Address 00005 (VPN: 00002 OFFSET: 00001)\
+Physical Address 00005 (PFN: 00002 OFFSET: 00001)\
+STORED 008 as data in virtual address 00005.\
+Complete\
+\
+Virtual Address 00007 (VPN: 00003 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 3. Evicting (PFN 6 VPN 0) as victim.\
+**** using free frame PFN 6\
+Physical Address 00013 (PFN: 00006 OFFSET: 00001)\
+STORED 009 as data in virtual address 00007.\
+Complete\
+\
+Virtual Address 00009 (VPN: 00004 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 4. Evicting (PFN 7 VPN 0) as victim.\
+**** using free frame PFN 7\
+Physical Address 00015 (PFN: 00007 OFFSET: 00001)\
+STORED 011 as data in virtual address 00009.\
+Complete\
+\
+Virtual Address 00005 (VPN: 00002 OFFSET: 00001)\
+Physical Address 00005 (PFN: 00002 OFFSET: 00001)\
+LOADED 008 as data from virtual address 00005.\
+Complete\
+\
+Virtual Address 00007 (VPN: 00003 OFFSET: 00001)\
+Physical Address 00013 (PFN: 00006 OFFSET: 00001)\
+LOADED 009 as data from virtual address 00007.\
+Complete\
+\
+Virtual Address 00011 (VPN: 00005 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 5. Evicting (PFN 0 VPN 0) as victim.\
+**** evicting victim page VPN 0 from frame PFN 0\
+Physical Address 00001 (PFN: 00000 OFFSET: 00001)\
+STORED 012 as data in virtual address 00011.\
+Complete\
+\
+Virtual Address 00013 (VPN: 00006 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 6. Evicting (PFN 1 VPN 1) as victim.\
+**** evicting victim page VPN 1 from frame PFN 1\
+Physical Address 00003 (PFN: 00001 OFFSET: 00001)\
+STORED 010 as data in virtual address 00013.\
+Complete\
+\
+Virtual Address 00005 (VPN: 00002 OFFSET: 00001)\
+Physical Address 00005 (PFN: 00002 OFFSET: 00001)\
+LOADED 008 as data from virtual address 00005.\
+Complete\
+\
+Virtual Address 00015 (VPN: 00007 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 7. Evicting (PFN 3 VPN 1) as victim.\
+**** evicting victim page VPN 1 from frame PFN 3\
+Physical Address 00007 (PFN: 00003 OFFSET: 00001)\
+STORED 011 as data in virtual address 00015.\
+Complete\
+\
+Virtual Address 00005 (VPN: 00002 OFFSET: 00001)\
+Physical Address 00005 (PFN: 00002 OFFSET: 00001)\
+LOADED 008 as data from virtual address 00005.\
+Complete\
+\
+Virtual Address 00001 (VPN: 00000 OFFSET: 00001)\
+****PAGE FAULT has occurred at VPN 0. Evicting (PFN 4 VPN 1) as victim.\
+**** evicting victim page VPN 1 from frame PFN 4\
+Physical Address 00009 (PFN: 00004 OFFSET: 00001)\
+LOADED 000 as data from virtual address 00001.\
+Complete\
+\
+===================================================\
+Switching to process: gcc. Corresponding pid: 1.\
+===================================================\
+\
+Virtual Address 00002 (VPN: 00001 OFFSET: 00000)\
+****PAGE FAULT has occurred at VPN 1. Evicting (PFN 5 VPN 2) as victim.\
+**** evicting victim page VPN 2 from frame PFN 5\
+Physical Address 00010 (PFN: 00005 OFFSET: 00000)\
+LOADED 000 as data from virtual address 00002.\
+Complete\
+\
+\
+-----------------------\
+Statistics:\
+-----------------------\
+Reads:                   11\
+Writes:                  14\
+Page Faults:             13\
+Page Fault Rate:   0.520000}
